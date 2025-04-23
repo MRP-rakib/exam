@@ -1,12 +1,19 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import { Syne } from 'next/font/google';  // যদি Syne ফন্ট দরকার হয়
-import { DM_Sans } from 'next/font/google';  // যদি DM_Sans ফন্ট দরকার হয়
+import { Syne } from 'next/font/google'; 
+import { DM_Sans } from 'next/font/google';  
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
+import Resume from "@/components/Resume";
+import About from "@/components/About";
+import RecentWork from "@/components/RecentWork";
+import ClientFeed from "@/components/ClientFeed";
+import CompanyLogo from "@/components/CompanyLogo";
+import Blog from "@/components/Blog";
+import PricingPlan from "@/components/PricingPlan";
 
-// ফন্টগুলি ইনিশিয়ালাইজ করা
+
 const syne = Syne({
   variable: "--font-syne",
   subsets: ['latin'],
@@ -36,11 +43,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${syne.variable} ${dmSans.variable} antialiased`}  // তোমার ফন্টগুলিকে একত্রিত করা
+        className={`${geistSans.variable} ${geistMono.variable} ${syne.variable} ${dmSans.variable} antialiased`}  
       >
         <Navbar/>
         <Hero/>
         <Services/>
+        <Resume/>
+        <About/>
+        <RecentWork/>
+        <ClientFeed/>
+        <CompanyLogo/>
+        <Blog/>
+        <PricingPlan/>
         {children}
       </body>
     </html>
