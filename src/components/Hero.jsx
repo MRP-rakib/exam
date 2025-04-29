@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import React from "react";
 import heroBg from "@/Assets/hero.png";
@@ -6,43 +7,75 @@ import { FaBehance } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaDribbble } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+
+
 
 const Hero = () => {
+  useGSAP(()=>{
+    gsap.from(".left_content", {
+      x: -50,
+      duration: 1,
+     autoAlpha:0,
+    })
+  })
+  useGSAP(()=>{
+    gsap.from(".right_content", {
+      x: 50,
+      duration: 1,
+      autoAlpha:0.5,
+    })
+  })
   return (
     <section>
-      <div className="bg-[#FFE9D9] h-[850px] w-full">
+      <div className="bg-[#FFE9D9] pb-[70px] md:pb-[90px] lg:pb-[110px] xl:pb-[120px] w-full ">
         {/* Left side: Image Section */}
-        <div className="relative">
-          <Image className="absolute top-0 right-0" src={heroBg} alt="Hero Image" />
+        <div className="relative hidden xl:block right_content">
+          <Image
+            className="absolute top-0 right-0"
+            src={heroBg}
+            alt="Hero Image"
+          />
         </div>
 
         {/* Main Content */}
-        <div className="container pt-[140px]">
-          <h2 className="flex items-center gap-5 text-[32px] font-bold">
-            <hr className="w-[65px]" /> Hello, I’m✌
+        <div className="container lg:pt-[180px] pt-[130px] left_content">
+         <div className="">
+         <h2 className="flex items-center gap-2 lg:gap-5 text-[22px] lg:text-[32px] font-bold ml-3 lg:ml-6 lg:mb-6">
+            <hr className="w-[25px] lg:w-[65px]"  /> Hello, I’m✌
           </h2>
-          <h1 className="relative font-syne text-[120px] font-bold w-[400px] pt-2 after:content-[''] after:size-[120px] after:rounded-full after:bg-yellow-400 after:absolute after:top-[6px] after:-left-[10px] after:z-[-1]">
-            <span className="bg-amber-300 w-[70px] h-[70px]"></span>
-            <span>Abdullah </span> Mamun
+          <h1 className="flex flex-col text-[50px] lg:text-[120px] xl:text-[140px] font-syne font-bold lg:leading-[110px]  ">
+            Abdullah <span>Mamun</span>
           </h1>
-          <p className="font-syne text-[24px] font-bold leading-8 mt-6">
+          <p className="font-syne lg:text-[24px] font-bold leading-8 mt-6">
             Product Designer | Based in Germany
           </p>
+         </div>
+
 
           {/* Buttons Section */}
-          <div className="flex gap-3 pt-[30px]">
+          <div className="sm:flex gap-3 pt-[30px]">
             <button className="bg-black py-4 px-8 text-white rounded-[8px] flex gap-2 items-center hover:bg-transparent hover:text-black border transition-all duration-75">
-              Let’s Talk <span><MdArrowOutward /></span>
+              Let’s Talk
+              <span>
+                <MdArrowOutward />
+              </span>
             </button>
             <button className="bg-black py-4 px-8 text-white rounded-[8px] flex gap-2 items-center hover:bg-transparent hover:text-black border transition-all duration-75">
-              My Work <span><MdArrowOutward /></span>
+              My Work
+              <span>
+                <MdArrowOutward />
+              </span>
             </button>
           </div>
 
           {/* Client and Social Media Section */}
-          <div className="md:flex mt-[120px] items-center">
+          <div className="md:flex mt-[60px] lg:mt-[120px] items-center">
             <div className="mr-[64px] flex items-center gap-3">
-              <h2 className="font-syne text-[44px] leading-[54px] font-bold pb-4 lg:pb-0">1.2k+</h2>
+              <h2 className="font-syne text-[44px] leading-[54px] font-bold pb-4 lg:pb-0">
+                1.2k+
+              </h2>
               <p>Worldwide clients</p>
               <span className="md:pl-9 hidden md:block">|</span>
             </div>
