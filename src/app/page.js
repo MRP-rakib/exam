@@ -1,17 +1,17 @@
-import Image from "next/image";
-import Hero from "@/components/Hero";
-import Services from "@/components/Services";
-import Resume from "@/components/Resume";
 import About from "@/components/About";
-import RecentWork from "@/components/RecentWork";
+import Blog from "@/components/Blog";
 import ClientFeed from "@/components/ClientFeed";
 import CompanyLogo from "@/components/CompanyLogo";
-import Blog from "@/components/Blog";
+import Hero from "@/components/Hero";
+import PricingPlan from "@/components/PricingPlan";
+import RecentWork from "@/components/RecentWork";
+import Resume from "@/components/Resume";
+import Services from "@/components/Services";
 
 export default function Home() {
   return (
    <div>
-    <Hero/>
+        <Hero/>
         <Services/>
         <Resume/>
         <About/>
@@ -19,7 +19,7 @@ export default function Home() {
         <ClientFeed/>
         <CompanyLogo/>
         <Blog/>
-       
+        <PricingPlan/>
    </div>
   );
 }

@@ -17,7 +17,7 @@ const Resume = () => {
                 <span className="text-black-800 text-[35px] xl:text-[80px] font-bold font-Syne leading-[40px]  relative before:rounded-full before:bg-amber-400 before:block before:absolute before:top-[50%] before:left-[-8px] before:-z-[1] before:w-[95px] lg:before:w-[100px] xl:before:w-[110px] before:h-[95px] lg:before:h-[100px] xl:before:h-[110px] before:translate-y-[-50%] z-2">
                   12+
                 </span>
-                <span className=" mt-10 text-[18px] md:text-[35px] lg:text-[40px]  text-[#08080866]  font-syne font-bold flex flex-col">
+                <span className=" mt-10 text-[18px] md:text-[35px] lg:text-[40px] text-[#08080866]  font-syne font-bold flex flex-col">
                   Years of <span>experience</span>
                 </span>
               </span>

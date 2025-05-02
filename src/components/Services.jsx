@@ -1,4 +1,3 @@
-"use client"
 import Image from "next/image";
 import React from "react";
 import { MdArrowOutward } from "react-icons/md";
@@ -9,9 +8,6 @@ import webflow from "@/images/servicesImage/webflow.png";
 import brand from "@/images/servicesImage/brandIden.png";
 import interaction from "@/images/servicesImage/interAction.png";
 import ServiceCard from "./ServiceCard";
-import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
-
 
 const Services = () => {
   const serviceItem = [
@@ -46,27 +42,12 @@ const Services = () => {
       title: "Interaction design",
     },
   ];
-
-useGSAP(()=>{
-  gsap.from(".top", {
-      y: 60,
-      duration: 1,
-      autoAlpha: 0,
-  })
-})
-useGSAP(()=>{
-  gsap.from(".bottom", {
-      y: 60,
-      duration: 1,
-      autoAlpha: 0,
-  })
-})
   return (
     <section className="lg:my-[120px] my-[80px]">
       <div className="container">
         {/* top side  */}
         <div className="grid grid-cols-1 md:grid-cols-2 justify-between items-center">
-          <div className="top">
+          <div>
             <h5 className="text-1xl lg:text-3xl font-bold text-[#FF9330] lg:mb-2 lg:ml-[6px]">
               Services
             </h5>
@@ -83,7 +64,7 @@ useGSAP(()=>{
           </div>
         </div>
         {/* Bottom side  */}
-        <div className="lg:grid grid-cols-1 sm:grid-cols-[auto_1fr] block gap-6 mt-12 bottom ">
+        <div className="lg:grid grid-cols-1 sm:grid-cols-[auto_1fr] block gap-6 mt-12  ">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3   gap-6">
             {serviceItem?.map((item) => {
               return <ServiceCard key={item.id} item={item} titleWidth={80} />;

@@ -7,8 +7,8 @@ import { FaBehance } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaDribbble } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 
 
@@ -27,13 +27,15 @@ const Hero = () => {
       autoAlpha:0.5,
     })
   })
+  
+   
   return (
     <section>
-      <div className="bg-[#FFE9D9] pb-[70px] md:pb-[90px] lg:pb-[110px] xl:pb-[120px] w-full ">
+      <div className="bg-[#FFE9D9] pb-[70px] md:pb-[90px] lg:pb-[110px] xl:pb-[120px] w-full">
         {/* Left side: Image Section */}
-        <div className="relative hidden xl:block right_content">
+        <div className="relative hidden xl:block">
           <Image
-            className="absolute top-0 right-0"
+            className="absolute top-0 right-0 right_content"
             src={heroBg}
             alt="Hero Image"
           />
