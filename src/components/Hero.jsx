@@ -45,7 +45,7 @@ const Hero = () => {
         <div className="container lg:pt-[180px] pt-[130px] left_content">
          <div className="">
          <h2 className="flex items-center gap-2 lg:gap-5 text-[22px] lg:text-[32px] font-bold ml-3 lg:ml-6 lg:mb-6">
-            <hr className="w-[25px] lg:w-[65px]"  /> Hello, I’m✌
+            <hr className="w-[25px] lg:w-[65px]"  /> Hello, I’m ✌
           </h2>
           <h1 className="flex flex-col text-[50px] lg:text-[120px] xl:text-[140px] font-syne font-bold lg:leading-[110px]  ">
             Abdullah <span>Mamun</span>

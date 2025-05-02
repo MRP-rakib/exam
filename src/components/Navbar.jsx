@@ -22,7 +22,7 @@ const Navbar = () => {
         {/* Logo Section */}
         <div className='flex items-center gap-2 '>
           <Image src={logo} alt="Logo" width={32} height={32} className=''/>
-          <h1 className='font-syne'>Name</h1>
+          <h1 className='font-syne font-bold text-5'>Abdullah</h1>
         </div>
 
         {/* Button and Menu Section */}
