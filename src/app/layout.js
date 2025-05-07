@@ -16,6 +16,7 @@ const dmSans = DM_Sans({
   subsets: ['latin'],
 });
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -32,10 +33,11 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${syne.variable} ${dmSans.variable} antialiased`}  
+        className={`${geistSans.variable} ${geistMono.variable} ${syne.variable}  ${dmSans.variable}  antialiased`}  
       >
         <Navbar/>
         {children}

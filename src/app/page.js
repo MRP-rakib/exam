@@ -1,3 +1,4 @@
+
 import About from "@/components/About";
 import Blog from "@/components/Blog";
 import ClientFeed from "@/components/ClientFeed";
@@ -8,7 +9,10 @@ import RecentWork from "@/components/RecentWork";
 import Resume from "@/components/Resume";
 import Services from "@/components/Services";
 
-export default function Home() {
+
+
+export default function Home({  pageProps }) {
+
   return (
    <div>
         <Hero/>
@@ -18,7 +22,7 @@ export default function Home() {
         <RecentWork/>
         <ClientFeed/>
         <CompanyLogo/>
-        <Blog/>
+        <Blog />
         <PricingPlan/>
    </div>
   );

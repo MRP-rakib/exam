@@ -51,9 +51,7 @@ const Services = () => {
             <h5 className="text-1xl lg:text-3xl font-bold text-[#FF9330] lg:mb-2 lg:ml-[6px]">
               Services
             </h5>
-            <h2 className="text-3xl lg:text-[64px] font-bold leading-[72px] font-syne">
-              My specialties
-            </h2>
+            <h1 className="text-[26px] lg:text-[44px]  font-syne text-black-800  xl:text-[60px] font-bold font-Syne leading-none  relative before:rounded-full before:bg-amber-400 before:block before:absolute before:top-[52%] before:left-[-4px] before:-z-[1] before:w-[30px] lg:before:w-[40px] xl:before:w-[75px] before:h-[30px] lg:before:h-[40px] xl:before:h-[75px] before:translate-y-[-50%] z-2 ">My specialties</h1>
           </div>
           <div>
             <h3 className="font-dmSans text-[#08080899]">

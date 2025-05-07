@@ -11,8 +11,8 @@ const ClientSec = () => {
                     <h1 className='font-syne font-bold text-[40px] md:text-[50px] lg:text-[64px] leading-[50px] md:leading-[60px] lg:leading-[72px] mr-16'>My vision is to create happy my clients</h1>
                     <p className='font-normal text-[18px] leading-7 text-[#080808] pt-6'>That is where I come in. A lover of words, a wrangler of copy. Here to create copy that not only reflects who you are and what you stand for, but words that truly land with those that read them, calling your audience in and making
                     them want more.</p>
-                    <div className='grid grid-cols-1 md:grid-cols-3 mt-[43px] gap-[41px]'>
-                        <div>
+                    <div className='grid grid-cols-1 md:grid-cols-3 mt-[43px] gap-[41px] items-center justify-center '>
+                        <div className='flex-col items-center justify-center'>
                             <h2 className='font-syne font-bold text-5 md:text-[32px] leading-[30px] md:leading-[40px]'>08</h2>
                             <p className='font-normal text-[18px] leading-7 mt-1 text-[##080808CC]'>Award winner</p>
                         </div>
@@ -41,10 +41,10 @@ const ClientSec = () => {
                     <div className=' flex justify-between gap-2 p-6 bg-black text-white rounded-[16px]'>
                         <div>
                             <h2 className='font-normal text-[16px] leading-7 text-[#FF9330] pb-2'>Say HELLO</h2>
-                            <h3 className='font-syne font-bold text-[20px] leading-[40px]'>web.abdullah20@gmail.com</h3>
+                            <h3 className='font-syne font-bold text-[14px] md:text-[20px] leading-[40px]'>web.abdullah20@gmail.com</h3>
                         </div>
                         <div className='items-end flex'>
-                            <MdArrowOutward className='h-12 w-12 text-[#FF9330] '/>
+                            <MdArrowOutward className='md:h-12 md:w-12 w-8 h-8 text-[#FF9330] '/>
                         </div>
                     </div>
                 </div>

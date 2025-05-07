@@ -10,12 +10,15 @@
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
+    "aos": "^2.3.4",
     "gsap": "^3.12.7",
     "next": "15.3.0",
     "react": "^19.0.0",
+    "react-countup": "^6.5.3",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
     "react-slick": "^0.30.3",
+    "react-spinners": "^0.17.0",
     "slick-slider": "^1.8.2",
     "swiper": "^11.2.6"
   },

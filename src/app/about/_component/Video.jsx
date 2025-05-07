@@ -5,7 +5,7 @@ import Link from "next/link";
 import { FaPlay } from "react-icons/fa";
 const Video = () => {
   return (
-    <div>
+    <div className='mb-[50px] md:mb-[100px]'>
         <div className="container">
    
                 <div className='relative'>

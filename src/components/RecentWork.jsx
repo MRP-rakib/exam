@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import React from 'react'
+import Image from 'next/image'
 import project_1 from "@/Assets/project1.png"
 import project_2 from "@/Assets/project2.png"
 import { MdArrowOutward } from "react-icons/md";
@@ -10,7 +10,8 @@ const RecentWork = () => {
        <div className="container">
         <div className='flex flex-col items-center justify-center my-10'>
             <h6 className='font-syne font-bold text-5 leading-7 text-[#FF9330] pb-[10px]'>Portfolio</h6>
-            <h2 className='font-syne font-bold text-8 md:text-12 lg:text-[64px] leading-10 md:leading-12 lg:leading-[72px] '>My Recent Work</h2>
+            <h2 className='font-syne font-bold text-8 md:text-12 lg:text-[64px] leading-10 md:leading-12 lg:leading-[72px]
+             '>My Recent Work</h2>
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
             <div className=''>

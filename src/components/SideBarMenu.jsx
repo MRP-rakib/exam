@@ -9,9 +9,9 @@ import { FaBehance, FaDribbble, FaGithub, FaLinkedinIn } from "react-icons/fa6";
 const SideBarMenu = ({ onMenuToggle }) => {
   return (
     <>
-      <div className="flex justify-between gap-2  border-b border-b-white/50 pl-8 h-screen bg-black w-[458px] fixed top-0 right-0 z-[100] flex-col flex-wrap  ">
+      <div className="flex justify-between gap-1 lg:gap-2  border-b border-b-white/50 pl-8 h-screen bg-black w-[300px] md:w-[400px] lg:w-[458px] fixed top-0 right-0 z-[100]  md:flex-col flex-wrap  ">
         <div className="">
-          <div className="flex justify-between">
+          <div className="flex justify-between gap-3 items-center">
             <span className="text-white flex">
               <Image src={logo} className="w-8 h-8 text-white" />
               <h2>Abdullah</h2>
@@ -23,8 +23,8 @@ const SideBarMenu = ({ onMenuToggle }) => {
               <RxCross2 />
             </button>
           </div>
-          <div className="pr-8 pb-10 pt-20 ">
-            <ul className="flex flex-col gap-2 text-white font-syne text-[20px] leading-[28px]  ">
+          <div className="pr-2 md:pr-8 pb-10 pt-20 md:mr-[40px]">
+            <ul className="flex flex-col gap-2 text-white font-syne text-[16px] md:text-[20px] leading-[28px]  ">
               <li className="border-b border-b-white/50 hover:text-orange-200">
                 <Link
                   href={"/"}
@@ -49,7 +49,7 @@ const SideBarMenu = ({ onMenuToggle }) => {
               </li>
               <li className="border-b border-b-white/50 hover:text-orange-200">
                 <Link
-                  href={"/contact"}
+                  href={"/project"}
                   className="flex justify-between gap-1.5 items-center py-4"
                 >
                 Project
@@ -58,12 +58,34 @@ const SideBarMenu = ({ onMenuToggle }) => {
                   </span>
                 </Link>
               </li>
-              <li className="hover:text-orange-200">
+              <li className="border-b border-b-white/50 hover:text-orange-200">
                 <Link
-                  href={"/"}
+                  href={"/blogdetails"}
                   className="flex justify-between gap-1.5 items-center py-4"
                 >
-                  Home
+                  Project Details
+                  <span>
+                    <MdArrowOutward />
+                  </span>
+                </Link>
+              </li>
+              <li className="border-b border-b-white/50 hover:text-orange-200">
+                <Link
+                  href={"/myblog"}
+                  className="flex justify-between gap-1.5 items-center py-4"
+                >
+                  Blog
+                  <span>
+                    <MdArrowOutward />
+                  </span>
+                </Link>
+              </li>
+              <li className="border-b border-b-white/50 hover:text-orange-200">
+                <Link
+                  href={"/myblogdetails"}
+                  className="flex justify-between gap-1.5 items-center py-4"
+                >
+                  Blog Details
                   <span>
                     <MdArrowOutward />
                   </span>
@@ -74,7 +96,7 @@ const SideBarMenu = ({ onMenuToggle }) => {
                   href={"/"}
                   className="flex justify-between gap-1.5 items-center py-4"
                 >
-                  Home
+                  Blog
                   <span>
                     <MdArrowOutward />
                   </span>
