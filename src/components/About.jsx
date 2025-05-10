@@ -13,14 +13,14 @@ import { FaBootstrap } from "react-icons/fa6";
 const About = () => {
   const [activeComponent, setActiveComponent] = useState("About")
   return (
-    <section className='bg-[#0808080A] pb-[60px] md:pb-[80px] lg:pb-[100px]'>
+    <section className='bg-[#0808080A] pb-[30px] md:pb-[80px] lg:pb-[100px]'>
             <div className='container relative'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 lg:gap-[24px] pt-[100px] '>
                     {/* left side  */}
-                    <div className=' pb-[140px]'>
+                    <div className=' pb-10 md:pb-[140px]'>
                         <h4 className='text-[#FF9330] ml-0 lg:ml-2 text-5 font-bold leading-7 mb-[9px]'>Resume</h4>
                         <h2 className='text-[30px] md:text-[40px] lg:text-[64px] font-syne font-bold leading-[40px] lg:leading-[72px]  relative before:rounded-full before:bg-amber-400 before:block before:absolute before:top-[18%] before:left-[-10px] before:-z-[1] before:w-[30px] lg:before:w-[50px] xl:before:w-[70px] before:h-[30px] lg:before:h-[50px] xl:before:h-[70px] before:translate-y-[-50%] z-2'>All over my details find here...</h2>
-                        <div className=' mt-[18px]  flex flex-wrap lg:flex-col mr-30'>
+                        <div className=' mt-[18px]  flex flex-wrap lg:flex-col mr-2 gap-2 lg:gap-0 lg:mr-30'>
                             <button onClick={() => setActiveComponent("About")} className='inline-flex justify-between mb-2 py-5 px-6 rounded-2xl text-[16px] font-bold leading-[15px] hover:bg-black hover:text-white duration-75  bg-white'>About <span><MdArrowOutward/></span></button>
                             <button onClick={() => setActiveComponent("Experience")} className='flex justify-between mb-2 py-5 px-6 rounded-2xl text-[16px] font-bold leading-[15px] hover:bg-black hover:text-white duration-75 items-center bg-white'>Experience <span><MdArrowOutward/></span></button>
                             <button onClick={() => setActiveComponent("Education")} className='flex justify-between mb-2 py-5 px-6 rounded-2xl text-[16px] font-bold leading-[15px] hover:bg-black hover:text-white duration-75 items-center bg-white'>Education <span><MdArrowOutward/></span></button>

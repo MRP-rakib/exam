@@ -31,10 +31,12 @@ const Navbar = () => {
         </div>
 
         {/* Button and Menu Section */}
-        <div className='flex gap-5 items-center'>
-          <button className='flex gap-2 justify-center items-center'>
-            Lets Talk <span><MdArrowOutward /></span>
+        <div className='flex gap-5 items-center group'>
+          <Link href={"/contact"}>
+          <button className='flex gap-2 justify-center items-center text-[15px] font-bold leading-4 group-hover:text-white cursor-pointer'>
+            Lets Talk <span><MdArrowOutward className="w-6 h-6"/></span>
           </button>
+          </Link>
 
           <div className='bg-black text-white w-[80px] h-[80px] flex justify-center items-center '
           onClick={menuToggle}>

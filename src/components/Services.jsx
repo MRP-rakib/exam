@@ -8,6 +8,7 @@ import webflow from "@/images/servicesImage/webflow.png";
 import brand from "@/images/servicesImage/brandIden.png";
 import interaction from "@/images/servicesImage/interAction.png";
 import ServiceCard from "./ServiceCard";
+import Link from "next/link";
 
 const Services = () => {
   const serviceItem = [
@@ -69,12 +70,14 @@ const Services = () => {
             })}
           </div>
 
-            <div className="bg-black rounded-3xl text-white ">
+            <div className="bg-black rounded-3xl cursor-pointer text-white ">
               <div className="py-9 px-6 flex flex-col  justify-between  h-full">
                <div className=" flex justify-end">
-               <button className="flex flex-wrap ">
-                  <MdArrowOutward className="text-[#FFB646] text-3xl justify-end" />
+              <Link href={"/contact"}>
+              <button className="flex flex-wrap cursor-pointer">
+                  <MdArrowOutward className="text-[#FFB646] text-3xl justify-end w-[80px] h-[80px]" />
                 </button>
+              </Link>
                </div>
                 <div className="flex flex-col flex-wrap">
                   <h5 className="text-[18px] font-light text-[#FFB646] leading-7 font-syne">

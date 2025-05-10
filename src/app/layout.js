@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${syne.variable}  ${dmSans.variable}  antialiased`}  
+        className={`${geistSans.variable} ${geistMono.variable} ${syne.variable}  ${dmSans.variable}  antialiased  overflow-x-hidden` }  
       >
         <Navbar/>
         {children}

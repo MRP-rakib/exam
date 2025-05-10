@@ -5,10 +5,10 @@ const PricingPlan = () => {
     <section className='mb-[120px]'>
         <div className="container">
             <div>
-                <div className='flex justify-between'>
+                <div className=' mt-2 md:mt-0 md:flex justify-between'>
                     <div className='max-w-[527px]'>
                         <p className='text-[#FFB646] font-syne font-bold text-[20px] leading-[28px]'>Pricing</p>
-                        <h2 className='font-syne font-bold text-[30px] md:text-[40px] lg:text-[64px] leading-[40px] md:leading-[55px] lg:leading-[72px] mt-[10px]'>Stay chill and pick your plan</h2>
+                        <h2 className='font-syne font-bold  text-[30px] pb-4 md:pb-0 md:text-[40px] lg:text-[64px] leading-[40px] md:leading-[55px] lg:leading-[72px] mt-[10px]'>Stay chill and pick your plan</h2>
                     </div>
                     <div className='flex items-end'>
                         <button className='lg:py-5 py-3 px-6 lg:px-8 bg-black text-white text-[15px] font-bold font-syne leading-4 rounded-[10px] flex gap-3 items-center hover:bg-gray-200 hover:text-black border-1 '>

@@ -3,6 +3,7 @@ import Image from 'next/image'
 import project_1 from "@/Assets/project1.png"
 import project_2 from "@/Assets/project2.png"
 import { MdArrowOutward } from "react-icons/md";
+import Link from 'next/link';
 
 const RecentWork = () => {
   return (
@@ -37,7 +38,9 @@ const RecentWork = () => {
                 </div>
             </div>
         </div>
+        <Link href={"/project"}>
         <button className='w-full bg-black text-white py-5 flex gap-3 items-center justify-center hover:bg-transparent border-1 border-black hover:text-black cursor-pointer duration-100 font-bold mt-12'>View All Project <span><MdArrowOutward/></span></button>
+        </Link>
        </div>
     </section>
   )

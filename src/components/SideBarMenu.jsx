@@ -9,11 +9,11 @@ import { FaBehance, FaDribbble, FaGithub, FaLinkedinIn } from "react-icons/fa6";
 const SideBarMenu = ({ onMenuToggle }) => {
   return (
     <>
-      <div className="flex justify-between gap-1 lg:gap-2  border-b border-b-white/50 pl-8 h-screen bg-black w-[300px] md:w-[400px] lg:w-[458px] fixed top-0 right-0 z-[100]  md:flex-col flex-wrap  ">
+      <div className="flex justify-between gap-1 lg:gap-2  border-b border-b-white/50 pl-8 h-screen bg-black w-[300px] md:w-[400px] lg:w-[458px] fixed top-0 right-0 z-[100]  md:flex-col  ">
         <div className="">
           <div className="flex justify-between gap-3 items-center">
             <span className="text-white flex">
-              <Image src={logo} className="w-8 h-8 text-white" />
+              <Image src={logo} alt="logo" className="w-8 h-8 text-white" />
               <h2>Abdullah</h2>
             </span>
             <button
@@ -93,10 +93,10 @@ const SideBarMenu = ({ onMenuToggle }) => {
               </li>
               <li className="hover:text-orange-200">
                 <Link
-                  href={"/"}
+                  href={"/contact"}
                   className="flex justify-between gap-1.5 items-center py-4"
                 >
-                  Blog
+                  Contact
                   <span>
                     <MdArrowOutward />
                   </span>
