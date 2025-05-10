@@ -6,7 +6,7 @@ import post_2 from "@/app/blogdetails/images/post2.png"
 
 const DesingDetails = () => {
   return (
-    <section className=' mt-[130px] pt-[130px] md:mt-[280px] md:pt-[280px]'>
+    <section className=' mt-[10px] lg:pt-[130px] md:mt-[280px]  md:pt-[280px]'>
         <div className="container">
             <div className=''>
             

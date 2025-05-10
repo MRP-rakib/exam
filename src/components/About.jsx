@@ -194,7 +194,7 @@ const Skills = () => {
   return (
     <div>
       <h1 className='font-bold font-syne text-[24px] md:text-[32px] leading-[24px] md:leading-[32px] pb-6'>Skill</h1>
-      <div className='bg-gray-100 grid grid-cols-2 md:grid-cols-3 gap-4'>
+      <div className='bg-gray-100 grid grid-cols-1 md:grid-cols-3 gap-4'>
         <div className='flex  gap-4 py-6 px-5 bg-[#0808080A]'>
          <div>
           <FaReact className='w-8 h-8'/>

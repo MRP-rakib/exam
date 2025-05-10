@@ -106,7 +106,8 @@ const SideBarMenu = ({ onMenuToggle }) => {
           </div>
         </div>
         
-            <ul className="flex  gap-4 mb-10">
+            <div>
+              <ul className="flex  gap-4 mb-10">
               
                              <FaBehance className="font-bold text-2xl text-white hover:text-orange-300" />
                              <FaLinkedinIn className="font-bold text-2xl text-white hover:text-orange-300"/>
@@ -114,6 +115,7 @@ const SideBarMenu = ({ onMenuToggle }) => {
                              <FaGithub className="font-bold text-2xl text-white hover:text-orange-300"/>
                       
             </ul>
+            </div>
       
       </div>
       <div className=""></div>

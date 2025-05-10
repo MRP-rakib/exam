@@ -4,7 +4,7 @@ import displayImg from "@/app/blogdetails/images/banner.png"
 
 const MyDesing = () => {
   return (
-    <section className='pt-20 bg-[#FFE9D9] mb-24 max-h-[570px]'>
+    <section className='pt-20 bg-[#FFE9D9] md:mb-24 lg:max-h-[570px]'>
             <div className="container">
                <div>
                <div className='grid grid-cols-1 md:grid-cols-2 pb-12 items-center'>
@@ -42,7 +42,7 @@ const MyDesing = () => {
                         </div>
                     </div>
                 </div>
-                <div className='grid grid-cols-1  mb-12'>
+                <div className='grid grid-cols-1 mb-1  md:mb-12'>
                     <Image src={displayImg} className='rounded-2xl w-full'/>
                 </div>
                </div>
