@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 import { MdArrowOutward } from "react-icons/md";
 const PricingPlan = () => {
@@ -11,9 +12,11 @@ const PricingPlan = () => {
                         <h2 className='font-syne font-bold  text-[30px] pb-4 md:pb-0 md:text-[40px] lg:text-[64px] leading-[40px] md:leading-[55px] lg:leading-[72px] mt-[10px]'>Stay chill and pick your plan</h2>
                     </div>
                     <div className='flex items-end'>
-                        <button className='lg:py-5 py-3 px-6 lg:px-8 bg-black text-white text-[15px] font-bold font-syne leading-4 rounded-[10px] flex gap-3 items-center hover:bg-gray-200 hover:text-black border-1 '>
+                        <Link href={"/contact"}>
+                        <button className='cursor-pointer lg:py-5 py-3 px-6 lg:px-8 bg-black text-white text-[15px] font-bold font-syne leading-4 rounded-[10px] flex gap-3 items-center hover:bg-gray-200 hover:text-black border-1 '>
                             Contact for Custom Project <span><MdArrowOutward/></span>
                         </button>
+                        </Link>
                     </div>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-[64px]'>

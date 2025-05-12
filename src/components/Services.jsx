@@ -70,12 +70,12 @@ const Services = () => {
             })}
           </div>
 
-            <div className="bg-black rounded-3xl cursor-pointer text-white ">
+            <div className="bg-black rounded-3xl mt-3 lg:mt-0 cursor-pointer text-white ">
               <div className="py-9 px-6 flex flex-col  justify-between  h-full">
                <div className=" flex justify-end">
               <Link href={"/contact"}>
               <button className="flex flex-wrap cursor-pointer">
-                  <MdArrowOutward className="text-[#FFB646] text-3xl justify-end w-[80px] h-[80px]" />
+                  <MdArrowOutward className="text-[#FFB646] text-[20px] lg:text-3xl justify-end w-[40px] h-[40px] lg:w-[80px] lg:h-[80px]" />
                 </button>
               </Link>
                </div>

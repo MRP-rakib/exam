@@ -9,12 +9,12 @@ import { FaBehance, FaDribbble, FaGithub, FaLinkedinIn } from "react-icons/fa6";
 const SideBarMenu = ({ onMenuToggle }) => {
   return (
     <>
-      <div className="flex justify-between gap-1 lg:gap-2  border-b border-b-white/50 pl-8 h-screen bg-black w-[300px] md:w-[400px] lg:w-[458px] fixed top-0 right-0 z-[100]  md:flex-col  ">
+      <div className="cursor-pointer flex flex-wrap flex-col justify-between gap-1 lg:gap-2  border-b border-b-white/50 pl-8 h-screen bg-black w-[300px] md:w-[400px] lg:w-[458px] fixed  top-0 right-0 z-[100]  md:flex-col  ">
         <div className="">
           <div className="flex justify-between gap-3 items-center">
             <span className="text-white flex">
               <Image src={logo} alt="logo" className="w-8 h-8 text-white" />
-              <h2>Abdullah</h2>
+              <h2 className="font-bold font-syne text-[20px]">Abdullah</h2>
             </span>
             <button
               className="flex items-center justify-center bg-amber-400  w-[90px] h-[70px]"

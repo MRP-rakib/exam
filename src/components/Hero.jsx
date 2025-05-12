@@ -66,9 +66,9 @@ const Hero = () => {
         <div className="container lg:pt-[180px] pt-[130px] left_content">
           <div className="">
             <h2 className="flex items-center gap-2 lg:gap-5 text-[22px] lg:text-[32px] font-bold ml-0 lg:ml-6 lg:mb-6">
-              <hr className="w-[25px] lg:w-[65px]" /> Hello, I’m ✌
+              <hr className="w-[20px] lg:w-[65px]" /> Hello, I’m ✌
             </h2>
-            <h1 className="text-[26px] lg:text-[74px]  font-syne text-black-800  xl:text-[100px] font-bold font-Syne leading-none  relative before:rounded-full before:bg-amber-400 before:block before:absolute before:top-[18%] before:left-[-6px] before:-z-[1] before:w-[30px] lg:before:w-[80px] xl:before:w-[90px] before:h-[30px] lg:before:h-[100px] xl:before:h-[90px] before:translate-y-[-50%] z-2 ">
+            <h1 className="text-[46px] lg:text-[74px]  font-syne text-black-800  xl:text-[100px] font-bold font-Syne leading-none  relative before:rounded-full before:bg-amber-400 before:block before:absolute before:top-[18%] before:left-[-6px] before:-z-[1] before:w-[30px] lg:before:w-[80px] xl:before:w-[90px] before:h-[30px] lg:before:h-[100px] xl:before:h-[90px] before:translate-y-[-50%] z-2 ">
               Abdullah<span className="flex flex-col">Product</span> Designer{" "}
             </h1>
             <p className="font-syne lg:text-[24px] font-bold leading-8 mt-6">

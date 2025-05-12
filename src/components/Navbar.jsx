@@ -38,7 +38,7 @@ const Navbar = () => {
           </button>
           </Link>
 
-          <div className='bg-black text-white w-[80px] h-[80px] flex justify-center items-center '
+          <div className='bg-black cursor-pointer text-white w-[80px] h-[80px] flex justify-center items-center '
           onClick={menuToggle}>
             <HiMenuAlt4 />
           </div>
