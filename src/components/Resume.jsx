@@ -1,11 +1,22 @@
+"use client"
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import person from "@/Assets/person_2.png";
 import { MdArrowOutward } from "react-icons/md";
+import Aos from "aos";
 
 const Resume = () => {
+  useEffect(() => {
+      Aos.init({
+        duration: 1000,
+        easing: "ease-in-out-back"
+      })
+  }, [])
   return (
-    <section className="mb-[46px]">
+    <section className="mb-[46px]"
+    data-aos="zoom-out"
+    data-aos-delay="300"
+    >
       <div className="container ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-[55px]">
           <div>
