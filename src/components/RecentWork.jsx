@@ -1,20 +1,36 @@
-import React from 'react'
+"use client";
+import React, { useEffect } from 'react'
 import Image from 'next/image'
 import project_1 from "@/Assets/project1.png"
 import project_2 from "@/Assets/project2.png"
 import { MdArrowOutward } from "react-icons/md";
 import Link from 'next/link';
+import Aos from 'aos';
 
 const RecentWork = () => {
+    useEffect(() => {
+        Aos.init(
+            {
+                duration: 2000,
+                easing: "ease-in-out-back"
+            }
+        )
+    }, [])
   return (
     <section className='bg-[#FFE9D9]  py-6 lg:py-[100px] '>
        <div className="container">
-        <div className='flex flex-col items-center justify-center my-10'>
+        <div className='flex flex-col items-center justify-center my-10'
+        data-aos= "fade-up"
+       data-aos-delay="300"
+        >
             <h6 className='font-syne font-bold text-5 leading-7 text-[#FF9330] pb-[10px]'>Portfolio</h6>
             <h2 className='font-syne font-bold text-8 md:text-12 lg:text-[64px] leading-10 md:leading-12 lg:leading-[72px]
              '>My Recent Work</h2>
         </div>
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'
+        data-aos="fade-up"
+        data-aos-dealy= "300"
+        >
             <div className=''>
                 <Image src={project_1} alt='project'/>
                 <div className='gap-2 mt-6 mb-2'>
@@ -38,7 +54,12 @@ const RecentWork = () => {
                 </div>
             </div>
         </div>
-        <Link href={"/project"}>
+        <Link href={"/project"}
+         data-aos="fade-up"
+        data-aos-delay="300"
+         data-aos-offset="200"
+         
+        >
         <button className='w-full bg-black text-white py-5 flex gap-3 items-center justify-center hover:bg-transparent border-1 border-black hover:text-black cursor-pointer duration-100 font-bold mt-12'>View All Project <span><MdArrowOutward/></span></button>
         </Link>
        </div>

@@ -17,7 +17,7 @@ const SideBarMenu = ({ onMenuToggle }) => {
               <h2 className="font-bold font-syne text-[20px]">Abdullah</h2>
             </span>
             <button
-              className="flex items-center justify-center bg-amber-400  w-[90px] h-[70px]"
+              className="flex items-center cursor-pointer justify-center bg-amber-400  w-[90px] h-[70px]"
               onClick={onMenuToggle}
             >
               <RxCross2 />

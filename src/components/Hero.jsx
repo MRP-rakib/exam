@@ -69,7 +69,7 @@ const Hero = () => {
               <hr className="w-[20px] lg:w-[65px]" /> Hello, I’m ✌
             </h2>
             <h1 className="text-[46px] lg:text-[74px]  font-syne text-black-800  xl:text-[100px] font-bold font-Syne leading-none  relative before:rounded-full before:bg-amber-400 before:block before:absolute before:top-[18%] before:left-[-6px] before:-z-[1] before:w-[30px] lg:before:w-[80px] xl:before:w-[90px] before:h-[30px] lg:before:h-[100px] xl:before:h-[90px] before:translate-y-[-50%] z-2 ">
-              Abdullah<span className="flex flex-col">Product</span> Designer{" "}
+              Abdullah<span className="flex flex-col">Web</span> Developer{" "}
             </h1>
             <p className="font-syne lg:text-[24px] font-bold leading-8 mt-6">
               Web Designer | Based in Bangladesh

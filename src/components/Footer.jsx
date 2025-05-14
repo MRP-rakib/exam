@@ -1,15 +1,25 @@
+"use client"
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import footer from "@/Assets/footer.png";
 import { MdArrowOutward } from "react-icons/md";
 import { IoIosArrowRoundUp } from "react-icons/io";
 import { FaBehance, FaDribbble, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import Link from "next/link";
+import Aos from "aos";
 
 const Footer = () => {
+  
+ useEffect(() => {
+    Aos.init({
+      duration: 1000,
+      easing: "ease-in-out-back",
+    });
+  }, []);
   return (
     <section className="bg-black py-[100px]">
       <div className="container">
-        <div>
+        <div data-aos="flip-down" data-aos-delay="200">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="text-white">
               <h2 className=" w-[416px] font-syne font-bold text-[40px] md:text-[50px] lg:text-[64px] leading-[50px] md:leading-[60px] lg:leading-[70px] pb-[40px]">Let’s work together</h2>
@@ -43,8 +53,10 @@ const Footer = () => {
               <div>
                 <h1 className="text-white">©2023 Mark Henry, All Rights Reserved</h1>
               </div>
-              <div>
-                <p className="text-white flex items-center">Back To Top <span><IoIosArrowRoundUp className="w-6 h-6  text-[#FFB646]"/></span></p>
+              <div aria-label="scroll up" className="cursor-pointer">
+                {/* <Link href={"/"}> */}
+                <p className="text-white flex items-center" >Back To Top <span><IoIosArrowRoundUp className="w-6 h-6  text-[#FFB646]"/></span></p>
+                {/* </Link> */}
               </div>
             </div>
           </div>
