@@ -22,7 +22,7 @@ const Footer = () => {
         <div data-aos="flip-down" data-aos-delay="200">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="text-white">
-              <h2 className=" w-[416px] font-syne font-bold text-[40px] md:text-[50px] lg:text-[64px] leading-[50px] md:leading-[60px] lg:leading-[70px] pb-[40px]">Let’s work together</h2>
+              <h2 className=" max-w-[416px] font-syne font-bold text-[40px] md:text-[50px] lg:text-[64px] leading-[50px] md:leading-[60px] lg:leading-[70px] pb-[40px]">Let’s work together</h2>
               <h3 className="flex gap-[11px] items-center">
                 Based in Bangladesh | 
                 <span className="flex gap-4">
