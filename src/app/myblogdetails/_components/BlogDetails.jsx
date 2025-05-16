@@ -1,14 +1,25 @@
+"use client"
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import blogDetails from "@/app/myblogdetails/images/banner2.png";
 import img from "@/app/myblogdetails/images/myimage.png"
+import Aos from "aos";
 
 const BlogDetails = () => {
+    useEffect(()=>{
+           Aos.init(
+            {
+                duration: 1000,
+                easing:"ease"
+            }
+           )
+          }, [])
   return (
     <section className="pt-50 bg-[#FFE9D9] mb-24 max-h-[570px]">
       <div className="container">
-        <div>
-          <div className="grid grid-cols-1 pb-12 items-center">
+        <div data-aos="flip-down"
+            data-aos-delay="300">
+          <div className="grid grid-cols-1 pb-12 items-center mt-10 md:mt-0">
            
               <h1 className="font-syne font-bold text-[24px] mr-0 lg:mr-[327px] sm:text-[30px] md:text-[35px] lg:text-[44px] leading-[30px] md:leading-[44px] lg:leading-[54px] ">
                 Designing the perfect feature comparison table

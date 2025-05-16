@@ -15,7 +15,7 @@ const AboutMe = () => {
      )
     }, [])
   return (
-    <section className="mt-[80px]  pt-[80px] pb-[120px] bg-[#FFE9D9] w-full">
+    <section className="mt-[80px]  pt-[80px] pb-[60px] md:pb-[120px] bg-[#FFE9D9] w-full">
       <div className=" container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center"
         data-aos="zoom-in"

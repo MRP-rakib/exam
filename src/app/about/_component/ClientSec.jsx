@@ -1,28 +1,39 @@
-import React from 'react'
+"use client"
+import Aos from 'aos';
+import React, { useEffect } from 'react'
 import { MdArrowOutward } from "react-icons/md";
 
 const ClientSec = () => {
+     useEffect(()=>{
+         Aos.init(
+          {
+              duration: 1000,
+              easing:"ease"
+          }
+         )
+        }, [])
   return (
     <section className='mt-[120px] mb-[110px]'>
-        <div className="container">
+        <div className="container" data-aos="zoom-in"
+            data-aos-delay="300">
             <div className='grid grid-cols-1 md:grid-cols-2 items-end gap-[134px]'>
                 {/* left side  */}
                 <div>
                     <h1 className='font-syne font-bold text-[40px] md:text-[50px] lg:text-[64px] leading-[50px] md:leading-[60px] lg:leading-[72px] mr-16'>My vision is to create happy my clients</h1>
                     <p className='font-normal text-[18px] leading-7 text-[#080808] pt-6'>That is where I come in. A lover of words, a wrangler of copy. Here to create copy that not only reflects who you are and what you stand for, but words that truly land with those that read them, calling your audience in and making
                     them want more.</p>
-                    <div className='grid grid-cols-1 md:grid-cols-3 mt-[43px] gap-[41px] items-center justify-center '>
+                    <div className='grid grid-cols-2 md:grid-cols-3 mt-[43px] gap-[41px] items-center justify-center '>
                         <div className='flex-col items-center justify-center'>
-                            <h2 className='font-syne font-bold text-5 md:text-[32px] leading-[30px] md:leading-[40px]'>08</h2>
-                            <p className='font-normal text-[18px] leading-7 mt-1 text-[##080808CC]'>Award winner</p>
+                            <h2 className='font-syne font-bold text-[25px] md:text-[32px] leading-[30px] md:leading-[40px]'>08</h2>
+                            <p className='font-normal text-[18px] leading-7 mt-1 text-[#080808CC]'>Award winner</p>
                         </div>
                         <div>
-                            <h2 className='font-syne font-bold text-5 md:text-[32px] leading-[30px] md:leading-[40px]'>1.2K</h2>
-                            <p className='font-normal text-[18px] leading-7 mt-1 text-[##080808CC]'>Worldwide client</p>
+                            <h2 className='font-syne font-bold text-[25px] md:text-[32px] leading-[30px] md:leading-[40px]'>1.2K</h2>
+                            <p className='font-normal text-[18px] leading-7 mt-1 text-[#080808CC]'>Worldwide client</p>
                         </div>
                         <div className='w-[186px]'>
-                            <h2 className='font-syne font-bold text-5 md:text-[32px] leading-[30px] md:leading-[40px]'>3.5K</h2>
-                            <p className='font-normal text-[18px] leading-7 mt-1 text-[##080808CC]'>Job done successfully</p>
+                            <h2 className='font-syne font-bold text-[25px] md:text-[32px] leading-[30px] md:leading-[40px]'>3.5K</h2>
+                            <p className='font-normal text-[18px] leading-7 mt-1 text-[#080808CC]'>Job done successfully</p>
                         </div>
                     </div>
                 </div>

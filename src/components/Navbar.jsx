@@ -45,7 +45,7 @@ const Navbar = () => {
         </div>
       </div>
     </section>
-    {isMenuOpen && <SideBarMenu onMenuToggle={menuToggle}/>}
+    {isMenuOpen && <SideBarMenu onMenuToggle={menuToggle} menu={isMenuOpen}/>}
     </>
   );
 };

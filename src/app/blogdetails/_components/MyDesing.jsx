@@ -1,12 +1,23 @@
+"use client"
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect } from 'react'
 import displayImg from "@/app/blogdetails/images/banner.png"
+import Aos from 'aos'
 
 const MyDesing = () => {
+     useEffect(()=>{
+         Aos.init(
+          {
+              duration: 1000,
+              easing:"ease"
+          }
+         )
+        }, [])
   return (
     <section className='pt-20 bg-[#FFE9D9] md:mb-24 lg:max-h-[570px]'>
             <div className="container">
-               <div>
+               <div data-aos="flip-down"
+            data-aos-delay="300">
                <div className='grid grid-cols-1 md:grid-cols-2 pb-12 items-center'>
                     <div>
                         <ul className='flex gap-5 ml-2'>

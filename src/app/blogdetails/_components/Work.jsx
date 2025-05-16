@@ -1,13 +1,24 @@
-import React from 'react'
+"use client"
+import React, { useEffect } from 'react'
 import { MdArrowOutward } from 'react-icons/md'
 import Image from 'next/image'
 import project_1 from "@/Assets/project1.png"
 import project_2 from "@/Assets/project2.png"
+import Aos from 'aos'
 
 const Work = () => {
+      useEffect(()=>{
+             Aos.init(
+              {
+                  duration: 1000,
+                  easing:"ease"
+              }
+             )
+            }, [])
   return (
-     <section className=' py-6 lg:py-[100px] '>
-           <div className="container">
+     <section className=' py-6 lg:py-[100px] mb-20'>
+           <div className="container" data-aos="flip-down"
+            data-aos-delay="300">
             <div className='flex flex-col items-center justify-center my-10'>
                 <h6 className='font-syne font-bold text-5 leading-7 text-[#FF9330] pb-[10px]'>Portfolio</h6>
                 <h2 className='font-syne font-bold text-8 md:text-12 lg:text-[64px] leading-10 md:leading-12 lg:leading-[72px] '>My Recent Work</h2>

@@ -38,45 +38,45 @@ const About = () => {
             <div className=" mt-[18px]  flex flex-wrap lg:flex-col mr-2 gap-2 lg:gap-0 lg:mr-30">
               <button
                 onClick={() => setActiveComponent("About")}
-                className="inline-flex justify-between mb-2 py-5 px-6 rounded-2xl text-[16px] font-bold leading-[15px] hover:bg-black hover:text-white duration-75  bg-white"
+                className="inline-flex cursor-pointer  justify-between mb-2 py-5 px-6 rounded-2xl text-[16px] font-bold leading-[15px] hover:bg-black hover:text-white duration-75  bg-white"
               >
-                About{" "}
+                About
                 <span>
                   <MdArrowOutward />
                 </span>
               </button>
               <button
                 onClick={() => setActiveComponent("Experience")}
-                className="flex justify-between mb-2 py-5 px-6 rounded-2xl text-[16px] font-bold leading-[15px] hover:bg-black hover:text-white duration-75 items-center bg-white"
+                className=" cursor-pointer flex justify-between mb-2 py-5 px-6 rounded-2xl text-[16px] font-bold leading-[15px] hover:bg-black hover:text-white duration-75 items-center bg-white"
               >
-                Experience{" "}
+                Experience
                 <span>
                   <MdArrowOutward />
                 </span>
               </button>
               <button
                 onClick={() => setActiveComponent("Education")}
-                className="flex justify-between mb-2 py-5 px-6 rounded-2xl text-[16px] font-bold leading-[15px] hover:bg-black hover:text-white duration-75 items-center bg-white"
+                className=" cursor-pointer flex justify-between mb-2 py-5 px-6 rounded-2xl text-[16px] font-bold leading-[15px] hover:bg-black hover:text-white duration-75 items-center bg-white"
               >
-                Education{" "}
+                Education
                 <span>
                   <MdArrowOutward />
                 </span>
               </button>
               <button
                 onClick={() => setActiveComponent("Skills")}
-                className="flex justify-between mb-2 py-5 px-6 rounded-2xl text-[16px] font-bold leading-[15px] hover:bg-black hover:text-white duration-75 items-center bg-white"
+                className=" cursor-pointer flex justify-between mb-2 py-5 px-6 rounded-2xl text-[16px] font-bold leading-[15px] hover:bg-black hover:text-white duration-75 items-center bg-white"
               >
-                Skills{" "}
+                Skills
                 <span>
                   <MdArrowOutward />
                 </span>
               </button>
               <button
                 onClick={() => setActiveComponent("Softskill")}
-                className="flex justify-between mb-2 py-5 px-6 rounded-2xl text-[16px] font-bold leading-[15px] hover:bg-black hover:text-white duration-75 items-center bg-white"
+                className=" cursor-pointer flex justify-between mb-2 py-5 px-6 rounded-2xl text-[16px] font-bold leading-[15px] hover:bg-black hover:text-white duration-75 items-center bg-white"
               >
-                Soft Skills{" "}
+                Soft Skills
                 <span>
                   <MdArrowOutward />
                 </span>

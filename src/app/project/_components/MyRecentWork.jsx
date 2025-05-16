@@ -1,5 +1,6 @@
+"use client"
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import project1 from "@/app/project/images/project1.png";
 import project2 from "@/app/project/images/project2.png";
 import project3 from "@/app/project/images/project3.png";
@@ -7,12 +8,22 @@ import project4 from "@/app/project/images/project4.png";
 import project5 from "@/app/project/images/project5.png";
 import project6 from "@/app/project/images/project6.png";
 import { MdArrowOutward } from "react-icons/md";
+import Aos from "aos";
 
 const MyRecentWork = () => {
+  useEffect(()=>{
+               Aos.init(
+                {
+                    duration: 1000,
+                    easing:"ease"
+                }
+               )
+              }, [])
   return (
     <section className="pt-[80px] pb-[120px]">
       <div className="container">
-        <div className="flex flex-col justify-center items-center pb-12">
+        <div className="flex flex-col justify-center items-center pb-12" data-aos="flip-down"
+            data-aos-delay="300">
           <h1 className="font-syne font-bold text-[20px] leading-7 pb-[10px] text-[#FF9330]">
             Portfolio
           </h1>
@@ -21,7 +32,8 @@ const MyRecentWork = () => {
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-[auto_1fr] gap-6">
-        <div className="relative ">
+        <div className="relative " data-aos="flip-down"
+            data-aos-delay="600">
             <Image src={project1} />
             <div className="absolute bottom-[15px] left-0 right-0 px-4">
               <div className="flex justify-between items-center text-white  group  bg-opacity-50 p-2 rounded-lg">
@@ -32,7 +44,8 @@ const MyRecentWork = () => {
               </div>
             </div>
           </div>
-          <div className="relative ">
+          <div className="relative " data-aos="flip-down"
+            data-aos-delay="800">
             <Image src={project2} />
             <div className="absolute bottom-[15px] left-0 right-0 px-4">
               <div className="flex justify-between items-center text-white  group  bg-opacity-50 p-2 rounded-lg">
@@ -45,7 +58,8 @@ const MyRecentWork = () => {
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-7">
-          <div className="relative ">
+          <div className="relative " data-aos="flip-down"
+            data-aos-delay="1000">
             <Image src={project3} />
             <div className="absolute bottom-[15px] left-0 right-0 px-4">
               <div className="flex justify-between items-center text-white  group  bg-opacity-50 p-2 rounded-lg">
@@ -56,7 +70,8 @@ const MyRecentWork = () => {
               </div>
             </div>
           </div>
-          <div className="relative">
+          <div className="relative" data-aos="flip-down"
+            data-aos-delay="1200">
             <Image src={project4} />
             <div className="absolute bottom-[15px] left-0 right-0 px-4">
               <div className="flex justify-between items-center text-white  group  bg-opacity-50 p-2 rounded-lg">
@@ -67,7 +82,8 @@ const MyRecentWork = () => {
               </div>
             </div>
           </div>
-          <div className="relative">
+          <div className="relative" data-aos="flip-down"
+            data-aos-delay="1400">
             <Image src={project5} />
             <div className="absolute bottom-[15px] left-0 right-0 px-4 ">
               <div className="flex justify-between items-center text-white  group  group-hover:bottom-6 bg-opacity-50 p-2 rounded-lg ">
@@ -91,7 +107,8 @@ const MyRecentWork = () => {
               </div>
             </div>
          </div>
-         <div className="relative">
+         <div className="relative" data-aos="flip-down"
+            data-aos-delay="1600">
          <Image src={project6} />
           <div className="absolute bottom-[15px] left-0 right-0 px-4">
               <div className="flex justify-between items-center text-white hover:text-[#FF9330] bg-opacity-50 p-2 rounded-lg">

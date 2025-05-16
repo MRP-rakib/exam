@@ -1,4 +1,5 @@
-import React from "react";
+"use client"
+import React, { useEffect } from "react";
 import { MdOutlineMail } from "react-icons/md";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { IoLocationOutline } from "react-icons/io5";
@@ -10,14 +11,24 @@ import {
   FaGithub,
   FaLinkedinIn,
 } from "react-icons/fa";
+import Aos from "aos";
 
 const Contact = () => {
+   useEffect(()=>{
+           Aos.init(
+            {
+                duration: 1000,
+                easing:"ease"
+            }
+           )
+          }, [])
   return (
     <section className="pt-[61px] pb-[120px]">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-[150px]">
           {/* left side  */}
-          <div>
+          <div data-aos="fade-up"
+            data-aos-delay="300">
             <h4 className="font-syne font-bold text-[20px] leading-7 text-[#FF9330]">
               Contact
             </h4>
@@ -33,7 +44,7 @@ const Contact = () => {
                   <p className="font-normal text-[18px] leading-7 text-[#08080899] pb-1">
                     Email us
                   </p>
-                  <h3 className="font-bold font-syne text-[20px] leading-7">
+                  <h3 className="font-bold font-syne text-[16px] md:text-[20px] leading-7">
                     web.abdullah20@gmail.com
                   </h3>
                 </div>
@@ -67,7 +78,8 @@ const Contact = () => {
             </div>
           </div>
           {/* Right side  */}
-          <div className="grid grid-cols-1 items-center justify-center px-4 py-8">
+          <div className="grid grid-cols-1 items-center justify-center px-4 py-8" data-aos="fade-up"
+            data-aos-delay="300">
             <form className="grid grid-cols-1 gap-6 md:grid-cols-2  ">
               <div className="flex flex-col ">
                 <label
@@ -144,14 +156,14 @@ const Contact = () => {
                 </button>
               </div>
             </form>
-            <div className="flex gap-8 mt-[35px] items-center">
+            <div className="md:flex gap-8 mt-[35px] items-center">
               <div className="flex items-center gap-6">
-                <hr className="w-[110px] text-[#0808081A]"></hr>
+                <hr className="w-[60px] md:w-[110px] text-[#0808081A]"></hr>
                 <h2 className="font-syne font-bold text-[20px] leading-7">
                   Follow me
                 </h2>
               </div>
-              <div className="flex gap-4 ">
+              <div className="flex gap-4  mt-4 md:mt-0">
                 <a href="">
                   <FaBehance className="cursor-pointer w-6 h-6" />
                 </a>

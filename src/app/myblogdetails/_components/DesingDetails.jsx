@@ -1,3 +1,4 @@
+"use client"
 import Image from 'next/image'
 import React from 'react'
 import post_3 from "@/app/myblogdetails/images/post3.png"
@@ -13,7 +14,7 @@ import Work from '@/app/blogdetails/_components/Work';
 
 const DesingDetails = () => {
   return (
-    <section className=' mt-[130px] pt-[130px] md:mt-[280px] md:pt-[280px]'>
+    <section className=' mt-[60px] pt-[60px] sm:mt-[130px] sm:pt-[130px] md:mt-[280px] md:pt-[280px]'>
             <div className="container">
                 <div className=''>
                 
@@ -40,7 +41,7 @@ const DesingDetails = () => {
                        
                             <p className='font-normal text-[18px] leading-7 text-[#08080899]'>Everyone in my team works towards the samegoal. This enabled our teams to ship new ideas and feel more capable. Podcasting operational — change management inside of workflows. Completely synergize.</p>
                             <p className='font-normal text-[18px] leading-7 text-[#08080899] pt-4'>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself</p>
-                       <div className='flex justify-between pt-12'>
+                       <div className='md:flex  justify-between pt-12'>
                         <div className='flex items-center'>
                         <p className='pr-6'>Share:</p>
                         <div className='flex gap-6'>
@@ -52,7 +53,7 @@ const DesingDetails = () => {
                             <FaRegHeart/>
                         </div>
                         </div>
-                        <div >
+                        <div className='mt-2'>
                             <button className='py- px-4 border-[1px] border-[#08080866] rounded-full mr-2'>Web</button>
                             <button className='py- px-4 border-[1px] border-[#08080866] rounded-full'>Development</button>
                         </div>

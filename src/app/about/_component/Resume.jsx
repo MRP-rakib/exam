@@ -1,12 +1,23 @@
+"use client"
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import { MdArrowOutward } from "react-icons/md";
 import about_3 from "@/app/about/image/about3.png"
+import Aos from "aos";
 
 const Resume = () => {
+   useEffect(()=>{
+             Aos.init(
+              {
+                  duration: 1000,
+                  easing:"ease"
+              }
+             )
+            }, [])
   return (
     <section className="bg-[#0808080A] py-[100px]">
-      <div className="container">
+      <div className="container"  data-aos="zoom-in"
+            data-aos-delay="300">
         <div>
           {/* Top Side  */}
           <div className=" pb-[140px] flex flex-col items-center justify-center ">
