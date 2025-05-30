@@ -45,7 +45,7 @@ const Contact = () => {
                     Email us
                   </p>
                   <h3 className="font-bold font-syne text-[16px] md:text-[20px] leading-7">
-                    web.abdullah20@gmail.com
+                    rakib@gmail.com
                   </h3>
                 </div>
               </div>
@@ -58,7 +58,7 @@ const Contact = () => {
                     Call us us
                   </p>
                   <h3 className="font-bold font-syne text-[20px] leading-7">
-                    +8801903530401
+                    +88013XXXXXXXX
                   </h3>
                 </div>
               </div>
@@ -71,7 +71,7 @@ const Contact = () => {
                     Address
                   </p>
                   <h3 className="font-bold font-syne text-[20px] leading-7">
-                    613, Manikdee, Dhaka Cantt, Dhaka-1206
+                    Savar,Dhaka
                   </h3>
                 </div>
               </div>
@@ -167,13 +167,13 @@ const Contact = () => {
                 <a href="">
                   <FaBehance className="cursor-pointer w-6 h-6" />
                 </a>
-                <a href="https://www.linkedin.com/in/abdullah2020/">
+                <a href="">
                   <FaLinkedinIn className="cursor-pointer w-6 h-6" />
                 </a>
                 <a href="">
                   <FaDribbble className="cursor-pointer w-6 h-6" />
                 </a>
-                <a href="https://github.com/MD-ABDULLAH24">
+                <a href="">
                   <FaGithub className="cursor-pointer w-6 h-6" />
                 </a>
               </div>

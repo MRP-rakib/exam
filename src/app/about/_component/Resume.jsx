@@ -75,7 +75,7 @@ const Resume = () => {
                           <ul className='mt-[56px] flex-col gap-3 inline-flex'>
                             <li className=' gap-10 inline-flex items-center'>
                               <span className='w-[110px] text-black text-lg font-normal leading-none'>Name</span>
-                               <span className='text-black text-[20px] lg:text-2xl font-bold font-syne leading-8'>Abdullah</span>
+                               <span className='text-black text-[20px] lg:text-2xl font-bold font-syne leading-8'>MD Rakib</span>
                                </li>
                             <li className=' gap-10 inline-flex items-center'> 
                               <span className='w-[110px] text-black text-lg font-normal leading-none'>Nationality</span>
@@ -83,15 +83,15 @@ const Resume = () => {
                                </li>
                             <li className=' gap-10 inline-flex items-center'>
                               <span className='w-[110px] text-black text-lg font-normal leading-none'>Phone</span>
-                               <span className='text-black text-[20px] lg:text-2xl font-bold font-syne leading-8'>01903530401</span>
+                               <span className='text-black text-[20px] lg:text-2xl font-bold font-syne leading-8'>013XXXXXXXX</span>
                                </li>
                             <li className=' gap-10 inline-flex items-center'>
                               <span className='w-[110px] text-black text-lg font-normal leading-none'>Email</span>
-                               <span className='text-black lg:text-2xl font-bold font-syne leading-8'>hello@henry.com</span>
+                               <span className='text-black lg:text-2xl font-bold font-syne leading-8'>rakib@gmail.com</span>
                                </li>
                             <li className=' gap-10 inline-flex items-center'>
                               <span className='w-[110px] text-black text-lg font-normal leading-none'>Experience</span> 
-                              <span className='text-black text-2xl font-bold font-syne leading-8'>2+ Years</span>
+                              <span className='text-black text-2xl font-bold font-syne leading-8'>3+ Years</span>
                               </li>
                             <li className=' gap-10 inline-flex items-center'>
                               <span className='w-[110px] text-black text-lg font-normal leading-none'>Freelance</span>

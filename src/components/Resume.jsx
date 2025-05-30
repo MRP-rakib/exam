@@ -37,8 +37,8 @@ const Resume = () => {
 
           <div>
             <h4 className="text-[#FF9330] text-5 leading-7 font-bold font-syne ml-1 mb-2">Hello I’m</h4>
-            <h1 className="text-[26px] lg:text-[64px]  font-syne text-black-800  xl:text-[80px] font-bold font-Syne leading-none  relative before:rounded-full before:bg-amber-400 before:block before:absolute before:top-[18%] before:left-[-16px] before:-z-[1] before:w-[30px] lg:before:w-[80px] xl:before:w-[90px] before:h-[30px] lg:before:h-[100px] xl:before:h-[90px] before:translate-y-[-50%] z-2 ">Abdullah<span className="flex flex-col">Product</span> Designer </h1>
-            <h3 className="text-[24px] md:text-[40px] lg:text-[44px] leading-[54px] font-bold font-syne">Based in Bangladesh</h3>
+            <h1 className="text-[26px] lg:text-[64px]  font-syne text-black-800  xl:text-[80px] font-bold font-Syne leading-none  relative before:rounded-full before:bg-amber-400 before:block before:absolute before:top-[18%] before:left-[-16px] before:-z-[1] before:w-[30px] lg:before:w-[80px] xl:before:w-[90px] before:h-[30px] lg:before:h-[100px] xl:before:h-[90px] before:translate-y-[-50%] z-2 ">MD Rakib<span className="flex flex-col">Web</span> Designer </h1>
+            <h3 className="text-[24px] md:text-[40px] lg:text-[44px] leading-[54px] font-bold font-syne">Based in Japan</h3>
             <p className="text-[#08080899] text-[18px] leading-[28px] font-medium">
               That is where I come in. A lover of words, a wrangler of copy.
               Here to create copy that not only reflects who you are and what
@@ -59,7 +59,7 @@ const Resume = () => {
                 <p className="tex-[18px] font-normal leading-7 text-[#080808]">Job done successfully</p>
               </div>
             </div>
-           <a href="/AbdullahResume.pdf">
+           <a href="">
            <button className="flex items-center cursor-pointer gap-3 bg-black text-white text-[15px] leading-[15px] font-bold py-3 lg:py-5 lg:px-8 px-5 rounded-[10px] mt-12 hover:bg-transparent hover:text-black border-2 border-black">Download My Resume <span><MdArrowOutward/></span></button>
            </a>
           </div>

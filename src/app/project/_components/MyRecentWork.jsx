@@ -38,7 +38,7 @@ const MyRecentWork = () => {
             <div className="absolute bottom-[15px] left-0 right-0 px-4">
               <div className="flex justify-between items-center text-white  group  bg-opacity-50 p-2 rounded-lg">
                 <h2 className="text-base font-bold font-syne text-6 sm:text-[28px] md:text-[30px] leading-[40px] group-hover:text-[#FF9330]">
-                  Oxilex Dashboard design
+                 Resturant website
                 </h2>
                 <MdArrowOutward className="text-xl group-hover:text-[#FF9330]" />
               </div>

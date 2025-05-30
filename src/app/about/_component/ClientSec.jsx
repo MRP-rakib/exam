@@ -52,7 +52,7 @@ const ClientSec = () => {
                     <div className=' flex justify-between gap-2 p-6 bg-black text-white rounded-[16px]'>
                         <div>
                             <h2 className='font-normal text-[16px] leading-7 text-[#FF9330] pb-2'>Say HELLO</h2>
-                            <h3 className='font-syne font-bold text-[14px] md:text-[20px] leading-[40px]'>web.abdullah20@gmail.com</h3>
+                            <h3 className='font-syne font-bold text-[14px] md:text-[20px] leading-[40px]'>rakib@gmail.com</h3>
                         </div>
                         <div className='items-end flex'>
                             <MdArrowOutward className='md:h-12 md:w-12 w-8 h-8 text-[#FF9330] '/>

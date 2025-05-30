@@ -42,7 +42,7 @@ const BlogDetails = () => {
                   Written by
                   </p>
                   <h4 className="font-bold text-[15px] leading-4 text-[#080808] pt-2">
-                   Abdullah
+                   MD Rakib
                   </h4>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ const BlogDetails = () => {
                   Date
                   </p>
                   <h4 className="font-bold text-[15px] leading-4 text-[#080808] pt-2">
-                  02/08/2023
+                  01/05/2025
                   </h4>
                 </div>
               </div>

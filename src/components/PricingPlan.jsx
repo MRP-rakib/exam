@@ -36,7 +36,7 @@ const PricingPlan = () => {
                     <div className='bg-[#0808080A] p-8 rounded-[15px]' data-aos="fade-up" data-aos-delay="300">
                         <div className='flex justify-between pb-[48px]'>
                             <p className='font-normal text-[18px] leading-[28px] text-[#080808]'>Basic</p>
-                            <h3 className='font-syne font-bold text-[20px] leading-[28px] text-[#FF9330]'>$48/h</h3>
+                            <h3 className='font-syne font-bold text-[20px] leading-[28px] text-[#FF9330]'>$25/h</h3>
                         </div>
                         <div className='flex justify-between'>
                            <div>
@@ -49,7 +49,7 @@ const PricingPlan = () => {
                     <div className='bg-[#0808080A] p-8 rounded-[15px]' data-aos="fade-up" data-aos-delay="300">
                         <div className='flex justify-between pb-[48px]'>
                             <p className='font-normal text-[18px] leading-[28px] text-[#080808]'>Premium</p>
-                            <h3 className='font-syne font-bold text-[20px] leading-[28px] text-[#FF9330]'>$60/h</h3>
+                            <h3 className='font-syne font-bold text-[20px] leading-[28px] text-[#FF9330]'>$50/h</h3>
                         </div>
                         <div className='flex justify-between'>
                            <div>
@@ -62,7 +62,7 @@ const PricingPlan = () => {
                     <div className='bg-[#0808080A] p-8 rounded-[15px]' data-aos="fade-up" data-aos-delay="300">
                         <div className='flex justify-between pb-[48px]'>
                             <p className='font-normal text-[18px] leading-[28px] text-[#080808]'>Platinum</p>
-                            <h3 className='font-syne font-bold text-[20px] leading-[28px] text-[#FF9330]'>$80/h</h3>
+                            <h3 className='font-syne font-bold text-[20px] leading-[28px] text-[#FF9330]'>$100/h</h3>
                         </div>
                         <div className='flex justify-between'>
                            <div>

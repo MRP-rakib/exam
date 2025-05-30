@@ -38,7 +38,7 @@ const RecentWork = () => {
                     <button className='border-1 border-black  py-[6px] px-4 rounded-[40px] hover:bg-black hover:text-white cursor-pointer text-[18px] '>Development</button>
                 </div>
                 <div className='flex justify-between gap-3 mt-3 items-center group-hover:text-[#FF9330] cursor-pointer group'>
-                    <h3 className='font-syne font-bold text-5 md:text-7 lg:text-[32px] leading-6 lg:leading-10 hover:text-[#FF9330] duration-75 transition-all'>Basinik Finance App</h3>
+                    <h3 className='font-syne font-bold text-5 md:text-7 lg:text-[32px] leading-6 lg:leading-10 hover:text-[#FF9330] duration-75 transition-all'>Resturant website</h3>
                     <p className='group-hover:text-[#FF9330] duration-75 transition-all  text-3xl'><MdArrowOutward/></p>
                 </div>
             </div>
@@ -49,7 +49,7 @@ const RecentWork = () => {
                     <button className='border-1 border-black  py-[6px] px-4 rounded-[40px] hover:bg-black hover:text-white cursor-pointer text-[18px] '>Development</button>
                 </div>
                 <div className='flex justify-between gap-3 mt-3 items-center group-hover:text-[#FF9330] group'>
-                    <h3 className='font-syne font-bold text-5 md:text-7 lg:text-[32px] leading-6 lg:leading-10 group-hover:text-[#FF9330] duration-75 transition-all'>Oxilex Dashboard desing</h3>
+                    <h3 className='font-syne font-bold text-5 md:text-7 lg:text-[32px] leading-6 lg:leading-10 group-hover:text-[#FF9330] duration-75 transition-all'>E-commerce website</h3>
                     <p className='group-hover:text-[#FF9330] duration-75 transition-all text-3xl'><MdArrowOutward/></p>
                 </div>
             </div>

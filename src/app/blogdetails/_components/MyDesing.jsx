@@ -30,7 +30,7 @@ const MyDesing = () => {
                         <div className='grid grid-cols-2 md:grid-cols-3 pb-6'>
                             <div>
                                 <p className='font-normal text-[14px] leading-5 text-[#080808CC]'>Client</p>
-                                <h4 className='font-bold text-[15px] leading-4 text-[#080808] pt-2'>Mashorom</h4>
+                                <h4 className='font-bold text-[15px] leading-4 text-[#080808] pt-2'>john</h4>
                             </div>
                             <div>
                                 <p className='font-normal text-[14px] leading-5 text-[#080808CC]'>Category</p>
@@ -44,11 +44,11 @@ const MyDesing = () => {
                         <div className='grid grid-cols-3'>
                             <div>
                                 <p className='font-normal text-[14px] leading-5 text-[#080808CC]'>Start date</p>
-                                <h4 className='font-bold text-[15px] leading-4 text-[#080808] pt-2'>09/01/2025</h4>
+                                <h4 className='font-bold text-[15px] leading-4 text-[#080808] pt-2'>09/01/2024</h4>
                             </div>
                             <div>
                             <p className='font-normal text-[14px] leading-5 text-[#080808CC]'>End date</p>
-                            <h4 className='font-bold text-[15px] leading-4 text-[#080808] pt-2'>18/05/2025</h4>
+                            <h4 className='font-bold text-[15px] leading-4 text-[#080808] pt-2'>18/05/2024</h4>
                             </div>
                         </div>
                     </div>

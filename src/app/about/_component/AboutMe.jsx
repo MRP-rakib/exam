@@ -28,7 +28,7 @@ const AboutMe = () => {
           {/* Right Side  */}
           <div>
             <h4 className="font-bold font-syne text-[#FFB646] pb-[10px] ml-2">About me</h4>
-            <h2 className="font-bold font-syne text-[40px] md:text-[50px] lg:text-[64px] leading-[50px] md:leading-[60px] lg:leading-[72px]">Abdullah</h2>
+            <h2 className="font-bold font-syne text-[40px] md:text-[50px] lg:text-[64px] leading-[50px] md:leading-[60px] lg:leading-[72px]">MD Rakib</h2>
             <h3 className="font-bold font-syne text-[24px] leading-[32px] pt-2">Web Developer</h3>
             <p className="font-syne font-bold text-[20px] leading-[28px] pt-6 pb-[30px]">
               A Product Designer & Developer and I am in the game for over 7+

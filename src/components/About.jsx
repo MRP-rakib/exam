@@ -23,8 +23,7 @@ const About = () => {
     <section className="bg-[#0808080A] pb-[70px] md:pb-[80px] lg:pb-[100px]">
       <div className="container relative">
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-[24px] pt-[100px] ">
-          {/* left side  */}
-          <div
+         <div
             className=" pb-10 md:pb-[140px]"
             data-aos="fade-up"
             data-aos-delay="300"
@@ -130,7 +129,7 @@ const AboutMe = () => {
               Name
             </span>
             <span className="text-black text-[20px] lg:text-2xl font-bold font-syne leading-8">
-              Abdullah
+              Rakib
             </span>
           </li>
           <li className=" gap-10 inline-flex items-center">
@@ -146,7 +145,7 @@ const AboutMe = () => {
               Phone
             </span>
             <span className="text-black text-[20px] lg:text-2xl font-bold font-syne leading-8">
-              01903530401
+              013XXXXXXXX
             </span>
           </li>
           <li className=" gap-10 inline-flex items-center">
