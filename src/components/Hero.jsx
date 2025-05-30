@@ -48,7 +48,7 @@ const Hero = () => {
             src={heroBg}
             alt="Hero Image"
           />
-          <div className="absolute top-36 right-40">
+          <div className="absolute top-[750px] right-40">
             <div>
               <Link href={"/contact"}>
                 <div className="absolute left-1/2 top-1/2 flex justify-center items-center -translate-x-1/2 -translate-y-1/2 z-10 bg-[#FFB646] p-3 w-[66px] h-[66px] text-black rounded-full">
