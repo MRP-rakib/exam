@@ -19,7 +19,7 @@ const Navbar = () => {
     <>
     
     <section className='bg-transparent z-10 absolute w-full top-0 left-0 border-b-1'>
-      <div className='flex container justify-between  ml-4 lg:ml-12 items-center py-2'>
+      <div className='flex container justify-between  items-center py-2'>
         <div className='flex'>
           <Link href={"/"} className="flex items-center gap-2 cursor-pointer">
             <Image src={logo} alt="Logo" width={32} height={32} />
