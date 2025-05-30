@@ -204,23 +204,23 @@ const Experience = () => {
         <div className="bg-[#0808080A] hover:shadow-2xl hover:bg-white cursor-pointer rounded-2xl hover:shadow-black py-7 px-6">
           <h5 className="text-[#080808CC]">03/216 – Running</h5>
           <h6 className="font-normal text-[18px] leading-7 text-[#080808] pt-3 md:pt-8 pb-1">
-            Axtra
+            google
           </h6>
           <h1 className="font-syne font-bold text-4 md:text-[24px] text-[#0B0B0B]">
-            Lead digital marketer
+            software developer
           </h1>
         </div>
         <div className="bg-[#0808080A] hover:shadow-2xl hover:bg-white cursor-pointer rounded-2xl hover:shadow-black py-7 px-6">
-          <h5>03/216 – Running</h5>
+          <h5>03/2019 – Running</h5>
           <h6 className="font-normal text-[18px] leading-7 text-[#080808] pt-3 md:pt-8 pb-1">
-            Axtra
+            facebook
           </h6>
           <h1 className="font-syne font-bold text-4 md:text-[24px] text-[#0B0B0B]">
             Lead digital marketer
           </h1>
         </div>
         <div className="bg-[#0808080A] hover:shadow-2xl hover:bg-white cursor-pointer rounded-2xl hover:shadow-black py-7 px-6">
-          <h5>03/216 – Running</h5>
+          <h5>03/2018 – Running</h5>
           <h6 className="font-normal text-[18px] leading-7 text-[#080808] pt-3 md:pt-8 pb-1">
             Axtra
           </h6>
@@ -251,37 +251,37 @@ const Education = () => {
       <div className="grid grid-cols-1 gap-4 ">
         <div className="bg-[#0808080A] flex gap-12 md:gap-16 lg:gap-[120px] hover:shadow-2xl hover:bg-white cursor-pointer rounded-2xl hover:shadow-black py-7 px-6">
           <div>
-            <h5>03/2/19 – 26/01/21</h5>
+            <h5>03/2008 – 07/20111</h5>
           </div>
           <div>
             <h3 className="font-normal text-[18px] leading-7 text-[#0B0B0B]">
-              Dhaka
+              Axtra Inco.
             </h3>
             <h1 className="font-syne font-bold text-6 leading-7 pt-4">
-              Secondary School Certificate
+              BA Business Management
             </h1>
           </div>
         </div>
         <div className="bg-[#0808080A] flex gap-12 md:gap-16 lg:gap-[120px] hover:shadow-2xl hover:bg-white cursor-pointer rounded-2xl hover:shadow-black py-7 px-6">
           <div>
-            <h5>17/4/22 – 26/8/23</h5>
+            <h5>03/2008 – 07/2011</h5>
           </div>
           <div>
             <h3 className="font-normal text-[18px] leading-7 text-[#0B0B0B]">
-              Dhaka
+              Axtra Inco.
             </h3>
             <h1 className="font-syne font-bold text-6 leading-7 pt-4">
-              Higher Secondary Certificate
+              BA Business Management
             </h1>
           </div>
         </div>
         <div className="bg-[#0808080A] flex gap-12 md:gap-16 lg:gap-[120px] hover:shadow-2xl hover:bg-white cursor-pointer rounded-2xl hover:shadow-black py-7 px-6">
           <div>
-            <h5>03/2/23 – Running</h5>
+            <h5>03/2008 – 07/2011</h5>
           </div>
           <div>
             <h3 className="font-normal text-[18px] leading-7 text-[#0B0B0B]">
-              Dhaka
+              Axtra Inco.
             </h3>
             <h1 className="font-syne font-bold text-6 leading-7 pt-4">
               BA Business Management
@@ -309,7 +309,7 @@ const Skills = () => {
               React Js
             </h2>
             <p className="text-[#080808CC] font-normal text-[14px] leading-5">
-              (70%)
+              (80%)
             </p>
           </div>
         </div>
@@ -322,7 +322,7 @@ const Skills = () => {
               Figma
             </h2>
             <p className="text-[#080808CC] font-normal text-[14px] leading-5">
-              (80%)
+              (70%)
             </p>
           </div>
         </div>
@@ -335,7 +335,7 @@ const Skills = () => {
               Framer
             </h2>
             <p className="text-[#080808CC] font-normal text-[14px] leading-5">
-              (50%)
+              (60%)
             </p>
           </div>
         </div>
@@ -348,7 +348,7 @@ const Skills = () => {
               Next Js
             </h2>
             <p className="text-[#080808CC] font-normal text-[14px] leading-5">
-              (80%)
+              (90%)
             </p>
           </div>
         </div>
@@ -361,7 +361,7 @@ const Skills = () => {
               Tailwind
             </h2>
             <p className="text-[#080808CC] font-normal text-[14px] leading-5">
-              (90%)
+              (95%)
             </p>
           </div>
         </div>
@@ -374,7 +374,7 @@ const Skills = () => {
               Bootstrap
             </h2>
             <p className="text-[#080808CC] font-normal text-[14px] leading-5">
-              (80%)
+              (85%)
             </p>
           </div>
         </div>
@@ -395,7 +395,7 @@ const SoftSkills = () => {
               Communication
             </h2>
             <p className="text-[#080808CC] font-normal text-[14px] leading-5">
-              (90%)
+              (80%)
             </p>
           </div>
         </div>
@@ -405,7 +405,7 @@ const SoftSkills = () => {
               Problem Solving
             </h2>
             <p className="text-[#080808CC] font-normal text-[14px] leading-5">
-              (80%)
+              (95%)
             </p>
           </div>
         </div>
@@ -425,7 +425,7 @@ const SoftSkills = () => {
               Organizing
             </h2>
             <p className="text-[#080808CC] font-normal text-[14px] leading-5">
-              (90%)
+              (95%)
             </p>
           </div>
         </div>
