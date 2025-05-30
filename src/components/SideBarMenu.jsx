@@ -32,7 +32,7 @@ const SideBarMenu = ({ onMenuToggle, menu }) => {
   return (
     <div
       ref={slideBar}
-      className="pl-4 pr-4 sm:pl-8 h-screen bg-black w-[90vw] max-w-[95vw] sm:max-w-[458px] md:w-[458px] fixed top-0 right-0 z-[1001] transition-all duration-300"
+      className="pl-4 pr-4 sm:pl-8 h-screen bg-black w-full max-w-full sm:max-w-[458px] md:w-[458px] fixed top-0 right-0 z-[1001] transition-all duration-300 block"
     >
       <div className="mb-[40px] sm:mb-[80px]">
         <div className="flex justify-between gap-3 items-center pt-6 sm:pt-0">
